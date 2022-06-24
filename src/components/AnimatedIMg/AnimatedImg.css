@@ -1,0 +1,40 @@
+.theImg {
+  z-index: 2;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px 0;
+}
+
+.theImg img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.AnmatedImg {
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  background-size: 400%;
+  width: 75%;
+  animation: glowing 20s linear infinite;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  filter: blur(5%);
+  z-index: 1;
+  margin: 0 auto;
+}
+
+
